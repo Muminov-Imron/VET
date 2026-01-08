@@ -433,3 +433,81 @@ header {
   height: 21px;
   margin-right: 6px;
 }
+
+.sec-four {
+  background-image: url("./bacgraund.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-bottom: 100px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.four-name {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  margin: 0;
+  color: #ffffff;
+}
+
+.wro {
+  padding-top: 32px;
+  display: flex;
+  gap: 21px;
+}
+
+.inp {
+  width: 345px;
+  border: none;
+  padding: 18px 0;
+  padding-left: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.inp-btn {
+  padding: 19px 51px;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  background-color: #333333;
+  border-radius: 3px;
+}
+
+.dog {
+  width: 613px;
+  height: 481px;
+  position: absolute;
+  top: -108px;
+  left: 771px;
+}
+
+.sec-five {
+  padding-top: 151px;
+  margin-bottom: 109px;
+}
+
+.name-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #333333;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 80px;
+}
