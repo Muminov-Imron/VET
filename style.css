@@ -36,6 +36,7 @@ header {
 .hed-logo {
   width: 177.55px;
   height: 86.23px;
+  cursor: pointer;
 }
 
 .hed-ul {
@@ -90,15 +91,17 @@ header {
 }
 
 .hed-btn {
+  border: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: right;
-  margin: 0;
+  background-color: transparent;
   color: #333333;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .hed-btn::before {
@@ -242,6 +245,7 @@ header {
   width: 14px;
   height: 25.92px;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .card-wrapper::after {
@@ -254,6 +258,7 @@ header {
   width: 14px;
   height: 25.92px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .card-img {
@@ -270,6 +275,7 @@ header {
   background-color: #ffffff;
   padding: 35px 28px;
   border: 1px solid #f3f3f3;
+  cursor: pointer;
 }
 
 .card-text {
@@ -304,6 +310,7 @@ header {
   background-color: #ffffff;
   padding: 47px 28px;
   border: 1px solid #f3f3f3;
+  cursor: pointer;
 }
 
 .card-img-three {
@@ -498,7 +505,7 @@ header {
 
 .sec-five {
   padding-top: 151px;
-  margin-bottom: 109px;
+  margin-bottom: 262px;
 }
 
 .name-title {
@@ -511,4 +518,153 @@ header {
   margin: 0;
   text-align: center;
   margin-bottom: 80px;
+}
+
+.wrapper-five {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.box-cat-info {
+  width: 305px;
+  border-radius: 5px;
+  border: 1px solid #e4e4e2;
+  background-color: #ffffff;
+}
+
+.cat-intro {
+  width: 305px;
+  height: 180px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.data {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #949494;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 22px;
+  margin-top: 21px;
+}
+
+.title-data {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  margin: 0;
+  margin-top: 2px;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-left: 30px;
+}
+
+.tetx-data {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin: 0;
+  color: #949494;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.data-btn {
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+  background-color: transparent;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  margin-top: 34px;
+  cursor: pointer;
+  margin-left: 22px;
+  margin-bottom: 35.81px;
+}
+
+.data-btn::before {
+  content: "";
+  display: block;
+  background-image: url("./pet.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 22.95px;
+  margin-right: 4px;
+}
+
+.box-cat-one {
+  display: flex;
+  width: 640px;
+  border-width: 1px;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  background-color: #ffffff;
+  padding-right: 35px;
+}
+
+.dog-img-one {
+  width: 320px;
+  height: 457.25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.link-wrp {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 43px;
+  padding-left: 30px;
+}
+
+.nav {
+  color: #3d9cea;
+  text-decoration: none;
+  margin: 0;
+}
+
+.datas {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #949494;
+  margin-top: 10px;
+  margin: 0;
+  margin-left: 67px;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  letter-spacing: 0%;
+  color: #333333;
+  margin: 0;
+  margin-top: 32px;
+  margin-left: 31px;
+  margin-bottom: 15px;
+}
+
+.nav-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin: 0;
+  margin-left: 31px;
+  color: #949494;
+  margin-bottom: 33px;
 }/*# sourceMappingURL=style.css.map */

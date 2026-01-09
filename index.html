@@ -6,14 +6,16 @@
     <title>VET</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
-    <header id="glavniy">
+  <body id="glavniy">
+    <header>
       <div class="container">
         <div class="wrapper">
-          <img src="/logo.svg" alt="logo" class="hed-logo" />
+          <a href="#glavniy">
+            <img src="/logo.svg" alt="logo" class="hed-logo" />
+          </a>
           <ul class="hed-ul">
             <li class="hed-li-one">
-              <a href="#" glavniy class="hed-a">Главная</a>
+              <a href="#glavniy" class="hed-a">Главная</a>
             </li>
 
             <li class="hed-li">
@@ -25,7 +27,7 @@
             </li>
 
             <li class="hed-li">
-              <a href="#" class="hed-a">Полезные Статьи</a>
+              <a href="#stati" class="hed-a">Полезные Статьи</a>
             </li>
 
             <li class="hed-li">
@@ -185,10 +187,67 @@
         </div>
       </section>
 
-      <section class="sec-five">
+      <section class="sec-five" id="stati">
         <div class="container">
+          <h5 class="name-title">Полезные статьи</h5>
           <div class="wrapper-five">
-            <h5 class="name-title">Полезные статьи</h5>
+            <div class="box-cat-info">
+              <img src="./Rectangle 27.svg" alt="cat" class="cat-intro" />
+              <span class="data">28.08.2020</span>
+              <h5 class="title-data">
+                Ультразвуковая <br />
+                чистка зубов
+              </h5>
+
+              <p class="tetx-data">
+                Появление в доме котенка приятное и радосное событие всегда этот
+                пушистый зверек берется от ...
+              </p>
+
+              <button class="data-btn">Читать больше</button>
+            </div>
+
+            <div class="box-cat-one">
+              <img src="./Rectangle 25.png" alt="dog" class="dog-img-one" />
+
+              <div class="wrp-namw">
+                <div class="link-wrp">
+                  <a href="#" class="nav">#собака</a>
+                  <a href="#" class="nav">#дом</a>
+                  <a href="#" class="nav">#уход</a>
+                  <span class="datas">29.08.2020</span>
+                </div>
+
+                <h6 class="nav-title">
+                  Перед тем как <br />
+                  завести собаку
+                </h6>
+
+                <p class="nav-text">
+                  Появление в доме котенка приятное и радосное событие. Но не
+                  всегда этот пушистый зверек берется от заводчиков, Бивают и
+                  ситуации когда животное находят на улице и дают ему теплый
+                  дом. И первым вопросом, который возникает у новых хозяев – как
+                  определить возраст котенка. Появление в доме котенка приятное
+                  и радосное событие.
+                </p>
+
+                <button class="data-btn">Читать больше</button>
+              </div>
+            </div>
+
+            <div class="box-cat-info">
+              <img src="./Rectangle 27 (1).svg" alt="cat" class="cat-intro" />
+              <span class="data">21.07.2020</span>
+              <h5 class="title-data">Когда привавать питомца?</h5>
+
+              <p class="tetx-data">
+                Появление в доме котенка приятное и радосное событие всегда этот
+                пушистый зверек берется от ...
+              </p>
+
+              <button class="data-btn">Читать больше</button>
+            </div>
           </div>
         </div>
       </section>
